@@ -1,12 +1,12 @@
 title: hpc.social - Community Syndicated Blog
 description: Shared community experiences and stories
 author: vsoch
-baseurl: "/blog"
+baseurl: "/community-blog"
 url: "https://hpc.social"
 keywords: hpc, community
 lang: en-US
 timezone:  America/Denver
-repo: https://github.com/hpc-social/blog
+repo: https://github.com/hpc-social/community-blog
 
 # Social Profiles
 twitter_username:  hpc_social
@@ -15,7 +15,7 @@ logo: assets/images/hpc-social-blue.png
 
 author:
   name: hpc.social
-  bio: High Performance Computing <br> Practitioners <br> and friends /#hpc
+  bio: High Performance Computing <br> Practitioners and friends <br> Community Syndicated Blog <br>
   picture: assets/images/hpc-social-blue.png 
   github: hpc-social
   twitter: hpc_social

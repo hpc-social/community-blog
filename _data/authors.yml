@@ -13,3 +13,8 @@
   url: https://dev.to/oneapi/
   feed: https://dev.to/feed/oneapi/
   image: https://simplecore.intel.com/oneapi-io/wp-content/uploads/sites/98/oneAPI-rgb-3000@2x.png
+- name: "OpenMP Blog"
+  tag: openmp
+  url: https://www.openmp.org/
+  feed: https://www.openmp.org/feed/
+  image: https://www.openmp.org/wp-content/uploads/cropped-openmp-site-icon-32x52.jpg

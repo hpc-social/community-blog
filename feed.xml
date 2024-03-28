@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://hpc.social/community-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hpc.social/community-blog/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-03-27T20:36:31-06:00</updated><id>https://hpc.social/community-blog/feed.xml</id><title type="html">hpc.social - Community Syndicated Blog</title><subtitle>Shared community experiences and stories</subtitle><author><name>hpc.social</name><email>info@hpc.social</email></author><entry><title type="html">IWOMP 2024</title><link href="https://hpc.social/community-blog/2024/iwomp-2024/" rel="alternate" type="text/html" title="IWOMP 2024" /><published>2024-03-20T14:45:28-06:00</published><updated>2024-03-20T14:45:28-06:00</updated><id>https://hpc.social/community-blog/2024/iwomp-2024</id><content type="html" xml:base="https://hpc.social/community-blog/2024/iwomp-2024/"><![CDATA[<p>Sept. 23, 2024  The 20th International Workshop on OpenMP - IWOMP is the premier forum to present and discuss issues, trends, recent research ideas, and results related to parallel programming with OpenMP.</p>
+
+<p>The post <a href="https://www.openmp.org/recent-events/iwomp-2024/">IWOMP 2024</a> appeared first on <a href="https://www.openmp.org">OpenMP</a>.</p>]]></content><author><name>OpenMP Blog</name></author><category term="openmp" /><summary type="html"><![CDATA[Sept. 23, 2024 The 20th International Workshop on OpenMP - IWOMP is the premier forum to present and discuss issues, trends, recent research ideas, and results related to parallel programming with OpenMP.]]></summary></entry><entry><title type="html">Looking forward to 2024!</title><link href="https://hpc.social/community-blog/2023/looking-forward-to-2024/" rel="alternate" type="text/html" title="Looking forward to 2024!" /><published>2023-12-22T06:16:33-07:00</published><updated>2023-12-22T06:16:33-07:00</updated><id>https://hpc.social/community-blog/2023/looking-forward-to-2024-</id><content type="html" xml:base="https://hpc.social/community-blog/2023/looking-forward-to-2024/"><![CDATA[<h2>
+  
+  
+  Looking forward to next year!
+</h2>
+
+<p>This is my end-of-the year post as we all make our way into the New Year. </p>
+
+<p>We've done quite a lot of things this year to help make oneAPI easier to use - a lot of the blog posts I've written as been towards an eye to educate.</p>
+
+<p>We started off with some blog posts on how to use modern IDEs on Linux to write SYCL code and run them inside a container that we built, making a turn-key effort to build applications.</p>
+
+<p>There was the introduction to '<a href="https://github.com/oneapi-community/awesome-oneapi">awesome oneAPI</a>' which showed a set of curated links to oneAPI projects showcasing all the capabilities. We have been updating it regularly, so check it out! We are definitely looking for more AI related projects - are you thinking of a project for next year? Need help? Let me know!</p>
+
+<p>To complement the awesome oneAPI distribution, I have recently launched the <a href="https://oneapi-community.github.io/">oneAPI Web Showcase</a> where we hope to discover upcoming projects that people are working on and showcasing them. There are also links on the website to help you start a project.</p>
+
+<p>We now have community-focused documentation!!</p>
+
+<p>I'll have another blog post up to show how you can help with the documentation by translating the documentation into different languages so that everybody can follow along in their native language. You can see the documentation at <a href="https://oneapi-community.github.io/documentation">https://oneapi-community.github.io/documentation</a>. We hope to grow it into a true community hub for oneAPI and SYCL. Exciting! All of these are community projects in themselves. Want to help out? Reach out or just submit a PR!</p>
+
+<h2>
+  
+  
+  Goals for next year
+</h2>
+
+<p>I want to keep building on the work we've done in 2023. So many opportunities!! 2023 was all about meeting developers where they were. Now, it's also time to meet them where they are AND also communicate with them in their own language!!</p>
+
+<p>The key to  adopting open platforms is to:</p>
+
+<p>1) Have great documentation that's accessible in as many languages as possible.<br />
+2) Plenty of code samples to look at how to do things.<br />
+3) Great developer experience - be able to set up your environment and just go!<br />
+4) Amazing community that interacts with each other, is active and works together.</p>
+
+<p>These are all totally possible!! But, oneAPI is relatively new and still under one vendor. With the formation of the <a href="https://uxlfoundation.org/">UXL Foundation</a>, we now have a neutral place for all vendors to congregate and work together. As a community, we should ask our hardware vendors to support level zero and be able to get all the advantages of hardware with a smooth hardware experience.</p>
+
+<p>So where do we want to go from here - here are my personal goals/wish list for next year!</p>
+
+<p>1) reproducible builds - we should be able to continuously build and test oneAPI software.<br />
+2) More community assistance in documentation by helping translate the docs we have - as well as having more docs around tips and tricks.<br />
+3) Adding more projects to Awesome oneAPI and having more PRs from the community to add their projects! :)</p>
+
+<h2>
+  
+  
+  Have a wonderful holiday season and a Happy New Year!
+</h2>
+
+<p>With that, I wish all of you a wonderful holiday season and looking forward to great things in the oneAPI ecosystem in 2024!!</p>
+
+<p>Photo by <a href="https://unsplash.com/@jamie452?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Jamie Street</a> on <a href="https://unsplash.com/photos/multicolored-christmas-decors-yq68hBhi0RI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>]]></content><author><name>oneAPI Community Blog</name></author><category term="oneapi" /><summary type="html"><![CDATA[Looking forward to next year!]]></summary></entry><entry><title type="html">Building oneAPI from Source</title><link href="https://hpc.social/community-blog/2023/building-oneapi-from-source/" rel="alternate" type="text/html" title="Building oneAPI from Source" /><published>2023-12-22T06:08:31-07:00</published><updated>2023-12-22T06:08:31-07:00</updated><id>https://hpc.social/community-blog/2023/building-oneapi-from-source</id><content type="html" xml:base="https://hpc.social/community-blog/2023/building-oneapi-from-source/"><![CDATA[<h2>
+  
+  
+  Build oneAPI completely from git
+</h2>
+
+<p>I'm back!! A few raw posts have been languishing and I decided the end of the year was the perfect time to put them out there. This will be one of three (hopefully).</p>
+
+<p>I'm going to focus on how ￼to build oneAPI from git. This is somewhat of a return to my earlier blog post where I talked about how to build the DPC++ compiler and it included the binary versions of the openCL and level zero run time.</p>
+
+<p>That's all well and good but let's consider how we could build the run time from git completely. The ability to do reproducible builds is going to be important later when we dive into buildimg packaging that is up to date and available on any Linux distro.</p>
+
+<p>The build only supports Intel hardware at this point since level zero doesn't support NVidia or AMD GPUs. If you are looking for such support, you might consider Codeplay's plugins that will allow you to use NVidia and AMD hardware. </p>
+
+<p>These blog pages typically only focus on what we can do from an open source perspective and won't really focus on anything that has binary blobs if we can avoid it.</p>
+
+<p>DISCLAIMER: Please don't use this set up for a production environment. It is not well tested. If you find any problems, please reach out in the comments so that I can help debug and update the blog post appropriately.</p>
+
+<h2>
+  
+  
+  Setting up the build environment
+</h2>
+
+<p>I like to use containers which makes it easy to quickly set up and automate using distrobox.</p>
+
+<p>You should be able to use whatever Linux distribution you want as long as you can install distrobox. You can, of course, use a virtual machine to accomplish this. I've used Vagrant successfully.</p>
+
+<p>Assuming that you have distrobox installed - let's get to it.</p>
+
+<p>Decide where you want to have the build for instance: ~/src/oneapi-build.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ distrobox create --image docker.io/library/ubuntu 20.04 --name "oneAPIBuild"
+$ distrobox enter oneAPIBuild
+</code></pre>
+
+</div>
+
+<p>You should now be in a container running Ubuntu 20.04.</p>
+
+<h3>
+  
+  
+  Install the appropriate packages
+</h3>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ sudo apt-get install -y build-essential git libssl-dev flex bison libz-dev python3-mako python3-pip automake autoconf libtool pkg-config ruby
+</code></pre>
+
+</div>
+
+<p>You will need a recent version of cmake for the builds. The one that comes with 20.04 is too old.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$  wget https://github.com/Kitware/CMake/releases/download/v3.28.1/cmake-3.28.1.tar.gz
+$ tar xvfpz cmake-3.28.1.tar.gz
+$ cd cmake-3.28.1
+$ ./boostrap
+$ ./configure
+$ make 
+$ sudo make install
+</code></pre>
+
+</div>
+
+<p>Now you should have everything you need for the build.</p>
+
+<h3>
+  
+  
+  Understanding the oneAPI Build
+</h3>
+
+<p>There are a number of prerequisites before you start the build. Here is a graphic of how the oneAPI build is put together.</p>
+
+<p>The order of build is:</p>
+
+<p>1) Intel Graphics Engine and i￼ts relevant prerequisites which consist of:</p>
+
+<ul>
+<li>Intel Graphics Compiler (igc)
+
+<ol>
+<li>SPIRV Headers</li>
+<li>SPIRV Tools</li>
+<li>copy of the llvm project</li>
+<li>vc-intrinsics</li>
+<li>intel graphcis compiler
+2) ocl-icd
+3) GMMLib
+4) NEO - Intel Compute Runtime - NEO is the primary GPU graphics driver and uses OpenCL to talk to the GPU.</li>
+</ol>
+</li>
+<li>Has the following pre-requisites:
+
+<ol>
+<li>Intel graphics compiler (IGC)</li>
+<li>GMMLib
+6) Level Zero
+7) DPC++ SYCL Compiler
+8) oneTBB Library</li>
+</ol>
+</li>
+</ul>
+
+<p>That's the progression to get the full build going.</p>
+
+<h3>
+  
+  
+  Intel Graphics Engine
+</h3>
+
+<p>Let's start building the first prerequisites for the NEO which is the Intel Graphics Engine:<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ mkdir igc-workspace &amp;&amp; cd igc-workspace
+$ git clone https://github.com/KhronosGroup/SPIRV-Headers.git --depth 1
+
+$ git clone https://github.com/KhronosGroup/SPIRV-Tools.git --depth 1
+
+$ git clone -b llvmorg-14.0.5 https://github.com/llvm/llvm-project llvm-project --depth 1
+
+$ git clone -b ocl-open-140 https://github.com/intel/opencl-clang llvm-project/llvm/projects/opencl-clang --depth 1
+
+$ git clone -b llvm_release_140 https://github.com/KhronosGroup/SPIRV-LLVM-Translator llvm-project/llvm/projects/llvm-spirv --depth 1
+
+$ git clone https://github.com/intel/vc-intrinsics --depth 1
+
+$ git clone https://github.com/intel/intel-graphics-compiler igc --depth 1
+
+$ mkdir build &amp;&amp; cd build
+$ cmake ../igc -DCMAKE_INSTALL_PREFIX="/usr/local"
+$ make -j `nproc`
+$ sudo make install
+</code></pre>
+
+</div>
+
+<p>It should build cleanly. If it doesn't - please check any errors and make sure you have all the prerequisites.</p>
+
+<h3>
+  
+  
+  ocl-icd
+</h3>
+
+<p>ocl-icd is an OpenCL loader - and is used to link opencl software when compiling. Make sure you are back in your usual oneapi-build directory.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd
+~/src/oneapi-build
+$ git clone https://github.com/OCL-dev/ocl-icd --depth 1
+$ cd ocl-icd
+$ ./bootstrap
+$ ./configure
+$ make
+$ sudo make install
+</code></pre>
+
+</div>
+
+<h3>
+  
+  
+  Install GMMLib
+</h3>
+
+<p>NEO requires GMMLib as one of its prerequisites so we will build that now.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd
+~/src/oneapi-build
+$ git clone https://github.com/intel/gmmlib --depth 1
+$ cd gmmlib
+$ mkdir build
+$ cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX="/usr/local"
+$ make
+$ sudo make install
+</code></pre>
+
+</div>
+
+<h3>
+  
+  
+  Install NEO
+</h3>
+
+<p>NEO is the Intel Compute Runtime and is necessary for the SYCL based applications to talk to the GPU. Go back to your ~/src/oneapi-build directory.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd 
+~/src/oneapi-build # please note this output will be different for you
+$ mkdir neo-workspace
+$ cd neo-workspace
+$ git clone https://github.com/intel/compute-runtime neo –depth 1
+$ cd neo
+$ mkdir build
+$ cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX="/usr/local"
+$ make
+$ sudo make install
+</code></pre>
+
+</div>
+
+<h2>
+  
+  
+  Install level-zero
+</h2>
+
+<p>This is the main part of oneAPI and interfaces with NEO or other run times. Since NEO is the only one at the moment - it will only work with Intel devices.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd
+~/src/oneapi-build
+$ git clone https://github.com/oneapi-src/level-zero --depth 1
+$ mkdir build
+$ cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX="/usr/local"
+$ make
+$ sudo make install
+</code></pre>
+
+</div>
+
+<h2>
+  
+  
+  Install the DPC++ Compiler
+</h2>
+
+<p>Now to build the SYCL Compiler.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd
+~/src/oneapi-build
+$ mkdir sycl_workspace &amp;&amp; cd sycl_workspace
+$ export DPCPP_HOME=`pwd`
+$ git clone https://github.com/intel/llvm.git -b sycl --depth 1
+$ python3 $DPCPP_HOME/llvm/buildbot/configure.py --cmake-opt CMAKE_BUILD_PREFIX="/usr/local"
+$ python3 $DPCPP_HOME/llvm/buildbot/compile.py
+</code></pre>
+
+</div>
+
+<h2>
+  
+  
+  Install oneTBB
+</h2>
+
+<p>Finally, we need to install oneTBB<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ pwd
+~/src/oneapi-build
+$ git clone https://github.com/oneapi-src/oneTBB --depth 1
+$ cd oneTBB
+$ mkdir build
+$ cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX="/usr/local"
+$ make
+$ make install
+</code></pre>
+
+</div>
+
+<h2>
+  
+  
+  Set the LD_LIBRARY_PATH
+</h2>
+
+<p>We need to make sure that the linker can find the proper libraries. The easiest way is to either set the LD_LIBRARY_PATH in your .bashrc or put it in /etc/environment.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ export LD_LIBRARY_PATH="/usr/local/lib"
+</code></pre>
+
+</div>
+
+<h2>
+  
+  
+  Test the environment
+</h2>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ cd ~/src
+$ mkdir simple-oneapi-app
+$ cd simple-oneapi-app
+$ cat &gt; simple-oneapi-app.cpp
+#include &lt;sycl/sycl.hpp&gt;
+
+int main() {
+  // Creating buffer of 4 ints to be used inside the kernel code
+  sycl::buffer&lt;sycl::cl_int, 1&gt; Buffer(4);
+
+  // Creating SYCL queue
+  sycl::queue Queue;
+
+  // Size of index space for kernel
+  sycl::range&lt;1&gt; NumOfWorkItems{Buffer.size()};
+
+  // Submitting command group(work) to queue
+  Queue.submit([&amp;](sycl::handler &amp;cgh) {
+    // Getting write only access to the buffer on a device
+    auto Accessor = Buffer.get_access&lt;sycl::access::mode::write&gt;(cgh);
+    // Executing kernel
+    cgh.parallel_for&lt;class FillBuffer&gt;(
+        NumOfWorkItems, [=](sycl::id&lt;1&gt; WIid) {
+          // Fill buffer with indexes
+          Accessor[WIid] = (sycl::cl_int)WIid.get(0);
+        });
+  });
+
+  // Getting read only access to the buffer on the host.
+  // Implicit barrier waiting for queue to complete the work.
+  const auto HostAccessor = Buffer.get_access&lt;sycl::access::mode::read&gt;();
+
+  // Check the results
+  bool MismatchFound = false;
+  for (size_t I = 0; I &lt; Buffer.size(); ++I) {
+    if (HostAccessor[I] != I) {
+      std::cout &lt;&lt; "The result is incorrect for element: " &lt;&lt; I
+                &lt;&lt; " , expected: " &lt;&lt; I &lt;&lt; " , got: " &lt;&lt; HostAccessor[I]
+                &lt;&lt; std::endl;
+      MismatchFound = true;
+    }
+  }
+
+  if (!MismatchFound) {
+    std::cout &lt;&lt; "The results are correct!" &lt;&lt; std::endl;
+  }
+
+  return MismatchFound;
+}
+
+$ clang++ -fsycl simple-oneapi-app.cpp -o simple-oneapi-app
+</code></pre>
+
+</div>
+
+<p>When you run the app you should get "Results are correct!".<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>$ ./simple-oneapi-app
+Results are correct!
+</code></pre>
+
+</div>
+
+<p>Now you've successfully built oneAPI from source!</p>
+
+<p>Let me know if you have any issues with the instructions in the comments.</p>
+
+<p>Photo by <a href="https://unsplash.com/@exdigy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Dominik Lückmann</a> on <a href="https://unsplash.com/photos/blue-and-red-cargo-ship-4aOhA4ptIY4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>]]></content><author><name>oneAPI Community Blog</name></author><category term="oneapi" /><summary type="html"><![CDATA[Build oneAPI completely from git]]></summary></entry><entry><title type="html">Supercomputing 2023 - HPC Social Summary!</title><link href="https://hpc.social/community-blog/2023/supercomputing-2023-hpc-social-summary/" rel="alternate" type="text/html" title="Supercomputing 2023 - HPC Social Summary!" /><published>2023-11-17T00:00:00-07:00</published><updated>2023-11-17T00:00:00-07:00</updated><id>https://hpc.social/community-blog/2023/supercomputing-2023-hpc-social-summary-</id><content type="html" xml:base="https://hpc.social/community-blog/2023/supercomputing-2023-hpc-social-summary/"><![CDATA[<p>What a week! We participated in person and virtually for <a href="https://sc23.supercomputing.org/">Supercomputing 2023</a> in Denver. While we cannot cover all the exciting happenings, we will review a brief set of events of interest here.</p>
+
+<h2 id="hpc-social-virtual-noodles-award">HPC Social Virtual Noodles Award</h2>
+
+<p>This year we launched the first <a href="https://hpc.social/noodles-award/">HPC Social Noodles Award</a>, a celebration of our frustrations and comical takes on the events of the year. THe top noodle was, of course, the whole CentOS debacle, followed by a few gripes about software and vendors, and the funny noodles starting at item 7 and on.</p>
+
+<h2 id="beowulf-bash">Beowulf Bash</h2>
+
+<p>HPC Social was present (and giving out stickers) at the <a href="https://beowulfbash.com/">bash</a> this year! The branding was… excellent.</p>
+
+<p><img alt="/assets/img/posts/sc23/bash.png" src="https://hpc-social.github.io/assets/img/posts/sc23/bash.png" /></p>
+
+<h2 id="i-want-to-run-my-mpi">I Want to Run my MPI</h2>
+
+<p>This was a parody music video made by community leader <a href="https://github.com/vsoch">@vsoch</a> to celebrate a generic HPC technology (MPI) in the high performance community!</p>
+
+<p>She made an effort to engage others to participate, and was only moderately successful to get a few shared pictures. It would be a fun idea if others wanted to participate to a greater extent at some future Supercomputing!</p>
+
+<h2 id="official-greeting">Official Greeting</h2>
+
+<p>The “official” greeting for SC23 was tapping someone on the shoulder, as <a href="https://twitter.com/HPC_Guru/status/1723539957124604325">announced by HPC Guru</a>.</p>
+
+<p><img alt="/assets/img/posts/sc23/shoulder-tap.jpeg" src="https://hpc-social.github.io/assets/img/posts/sc23/shoulder-tap.jpeg" /></p>
+
+<h2 id="texas-tech-tiny-cluster">Texas Tech Tiny Cluster!</h2>
+
+<p>Our very own Alan Sill hosted a booth to show up a tiny cluster! While Raspberry Pi clusters have been around for a long time and useful in hobbyist activities, training, home automation, and training, this was one of the first such small clusters running Fedora 39 as a natively installed OS on the head node and Enterprise Linux (in this case Rocky) on the worker nodes. More to come as other mainline popular cluster tools like Warewulf, Spack and/or EasyBuild, and Slurm and/or Flux schedulars are added.</p>
+
+<p><img alt="/assets/img/posts/sc23/tiny-cluster-1.jpg" src="https://hpc-social.github.io/assets/img/posts/sc23/tiny-cluster-1.jpg" />
+<img alt="/assets/img/posts/sc23/tiny-cluster-2.jpg" src="https://hpc-social.github.io/assets/img/posts/sc23/tiny-cluster-2.jpg" /></p>
+
+<h2 id="the-hpc-social-community">The HPC Social Community</h2>
+
+<p>And finally, we close with a few shots shared in the HPC Social slack! We love our community! ❤️</p>
+
+<p><img alt="/assets/img/posts/sc23/jarett-share.jpg" src="https://hpc-social.github.io/assets/img/posts/sc23/jarett-share.jpg" /></p>
+
+<p>Felix (finally) got his “I am HPC Guru” pin!</p>
+
+<p><img alt="/assets/img/posts/sc23/felix.jpeg" src="https://hpc-social.github.io/assets/img/posts/sc23/felix.jpeg" /></p>]]></content><author><name>hpc.social</name></author><category term="hpc-social" /><summary type="html"><![CDATA[What a week! We participated in person and virtually for Supercomputing 2023 in Denver. While we cannot cover all the exciting happenings, we will review a brief set of events of interest here.]]></summary></entry><entry><title type="html">Supercomputing 2023</title><link href="https://hpc.social/community-blog/2023/supercomputing-2023/" rel="alternate" type="text/html" title="Supercomputing 2023" /><published>2023-11-12T18:22:52-07:00</published><updated>2023-11-12T18:22:52-07:00</updated><id>https://hpc.social/community-blog/2023/supercomputing-2023</id><content type="html" xml:base="https://hpc.social/community-blog/2023/supercomputing-2023/"><![CDATA[<p>November 12, 2023<br />
+OpenMP will be in Denver for Supercomputing 2023 with four tutorials, a BOF, and more.</p>
+
+<p>The post <a href="https://www.openmp.org/events/sc23/">Supercomputing 2023</a> appeared first on <a href="https://www.openmp.org">OpenMP</a>.</p>]]></content><author><name>OpenMP Blog</name></author><category term="openmp" /><summary type="html"><![CDATA[November 12, 2023 OpenMP will be in Denver for Supercomputing 2023 with four tutorials, a BOF, and more.]]></summary></entry><entry><title type="html">OpenMP ARB Releases Technical Report 12</title><link href="https://hpc.social/community-blog/2023/openmp-arb-releases-technical-report-12/" rel="alternate" type="text/html" title="OpenMP ARB Releases Technical Report 12" /><published>2023-11-09T07:30:51-07:00</published><updated>2023-11-09T07:30:51-07:00</updated><id>https://hpc.social/community-blog/2023/openmp-arb-releases-technical-report-12</id><content type="html" xml:base="https://hpc.social/community-blog/2023/openmp-arb-releases-technical-report-12/"><![CDATA[<p>The OpenMP® Architecture Review Board (ARB) has released Technical Report 12, the second preview of version 6.0 of the OpenMP API, which will be released in 2024.</p>
+
+<p>The post <a href="https://www.openmp.org/press-release/openmp-arb-releases-technical-report-12/">OpenMP ARB Releases Technical Report 12</a> appeared first on <a href="https://www.openmp.org">OpenMP</a>.</p>]]></content><author><name>OpenMP Blog</name></author><category term="openmp" /><summary type="html"><![CDATA[The OpenMP® Architecture Review Board (ARB) has released Technical Report 12, the second preview of version 6.0 of the OpenMP API, which will be released in 2024.]]></summary></entry><entry><title type="html">Fortran Package Manager and OpenMP</title><link href="https://hpc.social/community-blog/2023/fortran-package-manager-and-openmp/" rel="alternate" type="text/html" title="Fortran Package Manager and OpenMP" /><published>2023-10-11T17:35:25-06:00</published><updated>2023-10-11T17:35:25-06:00</updated><id>https://hpc.social/community-blog/2023/fortran-package-manager-and-openmp</id><content type="html" xml:base="https://hpc.social/community-blog/2023/fortran-package-manager-and-openmp/"><![CDATA[<p>The Fortran Package Manager, or fpm, is a community-driven, open-source build tool and package manager for the Fortran language. fpm makes it easy for beginners to develop applications. It streamlines project setup by quickly and easily generating Fortran project templates, facilitating rapid prototyping.</p>
+
+<p>The post <a href="https://www.openmp.org/blog/fortran-package-manager-and-openmp/" rel="nofollow">Fortran Package Manager and OpenMP</a> appeared first on <a href="https://www.openmp.org" rel="nofollow">OpenMP</a>.</p>]]></content><author><name>OpenMP Blog</name></author><category term="openmp" /><summary type="html"><![CDATA[The Fortran Package Manager, or fpm, is a community-driven, open-source build tool and package manager for the Fortran language. fpm makes it easy for beginners to develop applications. It streamlines project setup by quickly and easily generating Fortran project templates, facilitating rapid prototyping.]]></summary></entry><entry><title type="html">oneAPI moves to Unified Acceleration Foundation (UXL)</title><link href="https://hpc.social/community-blog/2023/oneapi-moves-to-unified-acceleration-foundation-uxl/" rel="alternate" type="text/html" title="oneAPI moves to Unified Acceleration Foundation (UXL)" /><published>2023-09-30T03:36:38-06:00</published><updated>2023-09-30T03:36:38-06:00</updated><id>https://hpc.social/community-blog/2023/oneapi-moves-to-unified-acceleration-foundation-uxl-</id><content type="html" xml:base="https://hpc.social/community-blog/2023/oneapi-moves-to-unified-acceleration-foundation-uxl/"><![CDATA[<p>As accelerators have become more prevalent in the industry there has been a bifurcation in the industry which typically resolves itself. Initially there has been many efforts by a myriad of vendors in the GPU accelerator space with various degrees of openness.</p>
+
+<p>For a long period of time, incubation of the oneAPI ecosystem started at Intel through both DPC++ SYCL compiler, and the publishing of open specifications of oneAPI and their open source implementations. While the messaging around the specs were that they were open to all contributors – it could be hard to feel comfortable especially for competitors to enter spaces where the perception is that it isn’t a true neutral space. </p>
+
+<p>With oneAPI spec’s now under the aegis of the Linux Foundation the spec and the open source implementations will be well managed under established norms. There is now a true center of gravity to work together as equal partners on the oneAPI spec and their open source implementations.</p>
+
+<p>We can now focus on driving a true industry driven standard on heterogeneous computing under the UXL Foundation and have some serious collaboration to finally use all your hardware. This will herald a sustainable ecosystem that we can all be proud of.</p>
+
+<p>There are still challenges going forward. How our toolchains work together under UXL Foundation is going to be important going forward. We can address these concerns by vigorously participating in the UXL Foundation. Creating an open ecosystem is always challenging as many many partners need to agree and align on goals and processes. Listening to each other and the community is going to be key going forward.</p>
+
+<p>With all that being said - I hope that you will take the time to look at what has been established so far. We have a humble beginning but with your help and participation we can take it to the next level. For further reading, please see <a href="https://uxlfoundation.org/">https://uxlfoundation.org/</a>. Looking forward to seeing you all there.</p>
+
+<p>Cover image: Photo by <a href="https://unsplash.com/@sunburned_surveyor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Blake</a> on <a href="https://unsplash.com/photos/DodJfxuH46I?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name>oneAPI Community Blog</name></author><category term="oneapi" /><summary type="html"><![CDATA[As accelerators have become more prevalent in the industry there has been a bifurcation in the industry which typically resolves itself. Initially there has been many efforts by a myriad of vendors in the GPU accelerator space with various degrees of openness.]]></summary></entry><entry><title type="html">IWOMP 2023</title><link href="https://hpc.social/community-blog/2023/iwomp-2023/" rel="alternate" type="text/html" title="IWOMP 2023" /><published>2023-09-12T21:35:36-06:00</published><updated>2023-09-12T21:35:36-06:00</updated><id>https://hpc.social/community-blog/2023/iwomp-2023</id><content type="html" xml:base="https://hpc.social/community-blog/2023/iwomp-2023/"><![CDATA[<p>Sept. 12, 2023  The 19th International Workshop on OpenMP - IWOMP is the premier forum to present and discuss issues, trends, recent research ideas, and results related to parallel programming with OpenMP.</p>
+
+<p>The post <a href="https://www.openmp.org/recent-events/iwomp-2021-2/">IWOMP 2023</a> appeared first on <a href="https://www.openmp.org">OpenMP</a>.</p>]]></content><author><name>OpenMP Blog</name></author><category term="openmp" /><summary type="html"><![CDATA[Sept. 12, 2023 The 19th International Workshop on OpenMP - IWOMP is the premier forum to present and discuss issues, trends, recent research ideas, and results related to parallel programming with OpenMP.]]></summary></entry><entry><title type="html">Migrating reduction operations to SYCL in a molecular docking application</title><link href="https://hpc.social/community-blog/2023/migrating-reduction-operations-to-sycl-in-a-molecular-docking-application/" rel="alternate" type="text/html" title="Migrating reduction operations to SYCL in a molecular docking application" /><published>2023-08-10T22:30:31-06:00</published><updated>2023-08-10T22:30:31-06:00</updated><id>https://hpc.social/community-blog/2023/migrating-reduction-operations-to-sycl-in-a-molecular-docking-application</id><content type="html" xml:base="https://hpc.social/community-blog/2023/migrating-reduction-operations-to-sycl-in-a-molecular-docking-application/"><![CDATA[<p>I completed porting of a molecular docking application from CUDA to SYCL using the Intel® DPC++ Compatibility Tool (Compatibility Tool) in June 2021. Let me share selected techniques that I used without delving into the details of the docking application. If you want to learn how to use this tool to migrate CUDA applications to SYCL, please refer to [1].</p>
+
+<p>The Compatibility Tool adds comments in the code where manual migration may be required. Typically, the manual changes required fall into two categories. First, changes are required for the code to compile and make the code functionally correct. Other changes are necessary to get better performance. Here, I will cover code that uses the operation of 'reduction'. Reductions are frequently used in High Performance Computing and scientific applications and can be performance hotspots. The first example finds the sum of integers and the second finds the minimum of floats and the identifier of the run that corresponds to the minimum.</p>
+
+<h2>
+  
+  
+  Integer Reductions to find the number of evaluations
+</h2>
+
+<p>The  docking application performs integer reductions to keep a running count of the number of score evaluations. This reduction is  implemented as a multi-line macro in CUDA as shown below.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight cuda"><code><span class="cp">#define REDUCEINTEGERSUM(value, pAccumulator)     
+</span>    <span class="k">if</span> <span class="p">(</span><span class="n">threadIdx</span><span class="p">.</span><span class="n">x</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>     
+    <span class="p">{</span>     
+        <span class="o">*</span><span class="n">pAccumulator</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>     
+    <span class="p">}</span>     
+    <span class="n">__threadfence</span><span class="p">();</span>     
+    <span class="n">__syncthreads</span><span class="p">();</span>     
+    <span class="k">if</span> <span class="p">(</span><span class="n">__any_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">))</span>     
+    <span class="p">{</span>     
+        <span class="kt">uint32_t</span> <span class="n">tgx</span>            <span class="o">=</span> <span class="n">threadIdx</span><span class="p">.</span><span class="n">x</span> <span class="o">&amp;</span> <span class="n">cData</span><span class="p">.</span><span class="n">warpmask</span><span class="p">;</span>     
+        <span class="n">value</span>                  <span class="o">+=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">tgx</span> <span class="o">^</span> <span class="mi">1</span><span class="p">);</span>     
+        <span class="n">value</span>                  <span class="o">+=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">tgx</span> <span class="o">^</span> <span class="mi">2</span><span class="p">);</span>     
+        <span class="n">value</span>                  <span class="o">+=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">tgx</span> <span class="o">^</span> <span class="mi">4</span><span class="p">);</span>     
+        <span class="n">value</span>                  <span class="o">+=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">tgx</span> <span class="o">^</span> <span class="mi">8</span><span class="p">);</span>     
+        <span class="n">value</span>                  <span class="o">+=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">tgx</span> <span class="o">^</span> <span class="mi">16</span><span class="p">);</span>     
+        <span class="k">if</span> <span class="p">(</span><span class="n">tgx</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>     
+        <span class="p">{</span>     
+            <span class="n">atomicAdd</span><span class="p">(</span><span class="n">pAccumulator</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>     
+        <span class="p">}</span>     
+    <span class="p">}</span>     
+    <span class="n">__threadfence</span><span class="p">();</span>     
+    <span class="n">__syncthreads</span><span class="p">();</span>     
+    <span class="n">value</span> <span class="o">=</span> <span class="o">*</span><span class="n">pAccumulator</span><span class="p">;</span>     
+    <span class="n">__syncthreads</span><span class="p">();</span>
+</code></pre>
+
+</div>
+
+<p>Let us review what this code is doing:</p>
+
+<ul>
+<li>The code is called for each work item (thread) in a work group (warp)</li>
+<li>
+<em>*pAccumulator</em> is where the final sum is stored summing across all work items</li>
+<li>The combination of <em>__threadfence()</em> and <em>__syncthreads()</em> guarantees memory consistency and synchronizes threads in the warp at the point of the call.</li>
+<li>The <em>__any_sync()</em> call executes the block for those non-exited threads for which <em>'value != 0'</em>
+</li>
+<li>The following <em>__shfl_sync</em> calls do a tree-wise summing with the final sum available in the first thread in the warp in variable <em>value</em>
+</li>
+<li>The <em>value</em> is then added to the Accumulator atomically with <em>atomicAdd</em> and finally all threads assign the sum to the <em>value</em> variable.</li>
+</ul>
+
+<p>For more details about these CUDA calls please refer to [2].</p>
+
+<p>The Compatibility tool was not able to automatically migrate this code with the following comments.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>/*
+DPCT1023:40: The DPC++ sub-group does not support mask options for sycl::ext::oneapi::any_of.
+
+DPCT1023:41: The DPC++ sub-group does not support mask options for shuffle.
+
+DPCT1007:39: Migration of this CUDA API is not supported by the Intel(R) DPC++ Compatibility Tool.
+*/
+</code></pre>
+
+</div>
+
+<p>However, SYCL supports a rich set of functions for performing reductions. In this case, the reduce_over_group() function in SYCL can be used to create the same functionality as the above code as follows.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>
+#define REDUCEINTEGERSUM(value, pAccumulator)     
+        int val = sycl::reduce_over_group(item_ct1.get_group(), value, std::plus&lt;&gt;());      
+        *pAccumulator = val;     
+        item_ct1.barrier(sycl::access::fence_space::local_space);
+</code></pre>
+
+</div>
+
+<p>The <em>sycl::reduce_over_group</em> is a collective function. The usage of this function simplifies the macro. The function takes the group, the value to be reduced, and the reduction operation which in this case is plus or summation. The function can adapt to varied sizes of work groups in SYCL and will use the best available optimizations available per the compiler and run-time.</p>
+
+<h2>
+  
+  
+  Finding the minimum energy
+</h2>
+
+<p>In another part of the application, a block of CUDA threads perform shuffles to find the minimum of scores <em>v0</em> and the corresponding identifier <em>k0</em> of the run in the simulation that is the minimum score. The CUDA code calls a macro WARPMINIMUM2 (not shown) which in turn calls another macro WARPMINIMUMEXCHANGE (shown) with <em>mask</em> set to 1, 2, 4, 8, and 16.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight cuda"><code><span class="cp">#define WARPMINIMUMEXCHANGE(tgx, v0, k0, mask)     
+</span>    <span class="p">{</span>     
+        <span class="kt">float</span> <span class="n">v1</span>    <span class="o">=</span> <span class="n">v0</span><span class="p">;</span>     
+        <span class="kt">int</span> <span class="n">k1</span>      <span class="o">=</span> <span class="n">k0</span><span class="p">;</span>     
+        <span class="kt">int</span> <span class="n">otgx</span>    <span class="o">=</span> <span class="n">tgx</span> <span class="o">^</span> <span class="n">mask</span><span class="p">;</span>     
+        <span class="kt">float</span> <span class="n">v2</span>    <span class="o">=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">v0</span><span class="p">,</span> <span class="n">otgx</span><span class="p">);</span>     
+        <span class="kt">int</span> <span class="n">k2</span>      <span class="o">=</span> <span class="n">__shfl_sync</span><span class="p">(</span><span class="mh">0xffffffff</span><span class="p">,</span> <span class="n">k0</span><span class="p">,</span> <span class="n">otgx</span><span class="p">);</span>     
+        <span class="kt">int</span> <span class="n">flag</span>    <span class="o">=</span> <span class="p">((</span><span class="n">v1</span> <span class="o">&lt;</span> <span class="n">v2</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">tgx</span> <span class="o">&gt;</span> <span class="n">otgx</span><span class="p">))</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">v1</span> <span class="o">!=</span> <span class="n">v2</span><span class="p">);</span>     
+        <span class="n">k0</span>          <span class="o">=</span> <span class="n">flag</span> <span class="o">?</span> <span class="n">k1</span> <span class="o">:</span> <span class="n">k2</span><span class="p">;</span>     
+        <span class="n">v0</span>          <span class="o">=</span> <span class="n">flag</span> <span class="o">?</span> <span class="n">v1</span> <span class="o">:</span> <span class="n">v2</span><span class="p">;</span>     
+    <span class="p">}</span>
+</code></pre>
+
+</div>
+
+<p>The <em>__shfl_sync</em> provides a way of moving a value from one thread to other threads in the warp in one instruction. In this code snippet <em>__shfl_sync</em> gets the <em>v0</em> or <em>k0</em> value from the thread identified by the <em>otgx</em> mask and saves it in <em>v2</em>, <em>k2</em> variables. We then compare <em>v1</em> with <em>v2</em> to set <em>flag</em> and eventually store the minimum in <em>v0</em> and the run identifier for this minimum in <em>k0</em>.</p>
+
+<p>Compatibility Tool could not completely migrate this code and included this comment as the reason it could not. However, Compatibility Tool correctly replaced the <em>__shfl_sync</em> call with SYCL <em>shuffle</em> call as shown in the below diff which shows the manual change.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight plaintext"><code>/*
+DPCT1023:57: The DPC++ sub-group does not support mask options for shuffle.
+*/
+</code></pre>
+
+</div>
+
+<p>This comment indicates that the <em>shuffle</em> call in SYCL does not use a mask as shown below.<br />
+</p>
+
+<div class="highlight js-code-highlight">
+<pre class="highlight diff"><code><span class="err">#define</span> WARPMINIMUMEXCHANGE(tgx, v0, k0, mask)     
+        {     
+                float v1 = v0;     
+                int k1 = k0;     
+                int otgx = tgx ^ mask;     
+<span class="gd">-               float v2 = item_ct1.get_sub_group().shuffle(energy, otgx);     
+</span><span class="gi">+               float v2 = item_ct1.get_sub_group().shuffle(v0, otgx);  
+</span><span class="gd">-               int k2 = item_ct1.get_sub_group().shuffle(bestID, otgx);     
+</span><span class="gi">+               int k2 = item_ct1.get_sub_group().shuffle(k0, otgx);     
+</span>                int flag = ((v1 &lt; v2) ^ (tgx &gt; otgx)) &amp;&amp; (v1 != v2);     
+                k0 = flag ? k1 : k2;     
+                v0 = flag ? v1 : v2;     
+        }
+</code></pre>
+
+</div>
+
+<p>In this case, Compatibility Tool performed incorrect variable substitution for <em>v0</em> and <em>k0</em> in the shuffle calls using <em>energy</em> and <em>bestID</em> variables from the caller function. We manually fixed this by replacing <em>energy</em> with <em>v0</em> and <em>bestID</em> with <em>k0</em>. This bug has been fixed in recent versions of the Compatibility Tool.</p>
+
+<h2>
+  
+  
+  Summary
+</h2>
+
+<p>In summary, reduction operations in CUDA applications may not be migrated correctly by the Compatibility Tool. Review the comments provided by the tool to understand if manual migration is necessary and what change might be required. A good understanding of the original CUDA code will then help to make manual changes to develop functionally correct code in SYCL.</p>
+
+<p>[1] <a href="https://www.intel.com/content/www/us/en/docs/dpcpp-compatibility-tool/get-started-guide/2023-1/overview.html">https://www.intel.com/content/www/us/en/docs/dpcpp-compatibility-tool/get-started-guide/2023-1/overview.html</a></p>
+
+<p>[2] <a href="https://developer.nvidia.com/blog/using-cuda-warp-level-primitives/">https://developer.nvidia.com/blog/using-cuda-warp-level-primitives/</a></p>]]></content><author><name>oneAPI Community Blog</name></author><category term="oneapi" /><summary type="html"><![CDATA[I completed porting of a molecular docking application from CUDA to SYCL using the Intel® DPC++ Compatibility Tool (Compatibility Tool) in June 2021. Let me share selected techniques that I used without delving into the details of the docking application. If you want to learn how to use this tool to migrate CUDA applications to SYCL, please refer to [1].]]></summary></entry></feed>

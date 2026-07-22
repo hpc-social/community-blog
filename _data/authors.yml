@@ -18,3 +18,8 @@
   url: https://www.openmp.org/
   feed: https://www.openmp.org/feed/
   image: https://www.openmp.org/wp-content/uploads/cropped-openmp-site-icon-32x52.jpg
+- name: "@HPCpodcast with Shahin Khan and Doug Black"
+  tag: "hpcpodcast"
+  url: https://orionx.net/podcast/
+  feed: https://orionx.net/category/hpc-podcast/feed/
+  image: https://orionx.net/wp-content/uploads/2022/02/%40HPCpodcast_logo.svg
